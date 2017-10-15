@@ -5,8 +5,7 @@ var updateObjectWithKeyAndValue = function(object,key,value) {
 }
 
 var destructivelyUpdateObjectWitKeyAndValue = function(object, key, value) {
-
-   object[key]= value
+  new Object(object[key]= value);
 }
 
 // deleteFromObjectByKey(object, key)
